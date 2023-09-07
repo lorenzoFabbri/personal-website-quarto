@@ -1,0 +1,42 @@
+/*-- scss:rules --*/
+
+.nav-footer {
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border: 0 !important;
+  min-height: 3em;
+  font-family: $footer-font-family;
+
+  a {
+    color: $light-orange;
+  }
+
+  .faux-block {
+    display: block;
+    padding-bottom: 0.4em;
+  }
+
+  .nav-footer-left,
+  .nav-footer-right,
+  .nav-footer-center {
+    text-align: center;
+    width: 100%;
+    min-height: 2em;
+  }
+
+  @media (min-width: map-get($grid-breakpoints, md)) {
+    .nav-footer-left {
+      text-align: left;
+    }
+
+    .nav-footer-right {
+      text-align: right;
+    }
+
+    .nav-footer-left,
+    .nav-footer-right,
+    .nav-footer-center {
+      flex: 1 1 33%;
+    }
+  }
+}
