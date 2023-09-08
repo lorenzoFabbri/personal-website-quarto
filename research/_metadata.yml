@@ -1,0 +1,15 @@
+date-format: "MMMM YYYY"
+
+toc: true
+toc-title: Contents
+toc-location: left
+
+execute:
+  echo: false
+  message: false
+  warning: false
+
+include-back-link: true
+
+format:
+  html
