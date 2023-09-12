@@ -1027,7 +1027,7 @@
   abstract = {Because humans are invariably exposed to complex chemical mixtures, estimating the health effects of multi-pollutant exposures is of critical concern in environmental epidemiology, and to regulatory agencies such as the U.S. Environmental Protection Agency. However, most health effects studies focus on single agents or consider simple two-way interaction models, in part because we lack the statistical methodology to more realistically capture the complexity of mixed exposures. We introduce Bayesian kernel machine regression (BKMR) as a new approach to study mixtures, in which the health outcome is regressed on a flexible function of the mixture (e.g. air pollution or toxic waste) components that is specified using a kernel function. In high-dimensional settings, a novel hierarchical variable selection approach is incorporated to identify important mixture components and account for the correlated structure of the mixture. Simulation studies demonstrate the success of BKMR in estimating the exposure-response function and in identifying the individual components of the mixture responsible for health effects. We demonstrate the features of the method through epidemiology and toxicology applications.},
   issue = {3},
   keywords = {/unread,AI,Air pollution,Bayesian variable selection,Causal Inference,Environment,Environmental health,Gaussian process regression,Metal mixtures,Omics,Statistics,To Read},
-  file = {/home/lfabbri/Zotero/storage/8HK34KA2/bobb_et_al-2015-bayesian_kernel_machine_regression_for_estimating_the_health_effects_of.pdf}
+  file = {/home/lfabbri/Zotero/storage/7U73N3RR/bobb_et_al-2015-bayesian_kernel_machine_regression_for_estimating_the_health_effects_of.pdf;/home/lfabbri/Zotero/storage/8HK34KA2/bobb_et_al-2015-bayesian_kernel_machine_regression_for_estimating_the_health_effects_of.pdf}
 }
 
 @article{BoekelheideBlumbergChapin:2012,
@@ -2190,6 +2190,25 @@
   urldate = {2022-08-12},
   abstract = {Here we introduce a novel implementation of weighted quantile sum (WQS) regression, a modeling strategy for mixtures analyses, which integrates a random subset algorithm in the estimation of mixture effects. We demonstrate the application of this method (WQSRS) in three case examples, with mixtures varying in size from 34 to 472 variables. In evaluating each case, we provide detailed simulation studies to characterize the sensitivity and specificity of WQSRS in varying contexts. Our results emphasize that WQSRS is robustly effective in evaluating mixture effects in diverse high-dimensional contexts, yielding sensitivity and specificity in empirical contexts of approximately 73–75\% and 73–89\%, respectively.},
   keywords = {/unread,\#nosource,mixtures,Mixtures models,Read,supervised learning,Weighted quantile sum regression}
+}
+
+@article{CzarnotaGenningsWheeler:2015,
+  title = {Assessment of {{Weighted Quantile Sum Regression}} for {{Modeling Chemical Mixtures}} and {{Cancer Risk}}},
+  author = {Czarnota, Jenna and Gennings, Chris and Wheeler, David C.},
+  date = {2015-01-01},
+  journaltitle = {Cancer Informatics},
+  shortjournal = {Cancer Inform},
+  volume = {14s2},
+  pages = {CIN.S17295},
+  publisher = {{SAGE Publications Ltd STM}},
+  issn = {1176-9351},
+  doi = {10.4137/CIN.S17295},
+  url = {https://doi.org/10.4137/CIN.S17295},
+  urldate = {2023-09-12},
+  abstract = {In evaluation of cancer risk related to environmental chemical exposures, the effect of many chemicals on disease is ultimately of interest. However, because of potentially strong correlations among chemicals that occur together, traditional regression methods suffer from collinearity effects, including regression coefficient sign reversal and variance inflation. In addition, penalized regression methods designed to remediate collinearity may have limitations in selecting the truly bad actors among many correlated components. The recently proposed method of weighted quantile sum (WQS) regression attempts to overcome these problems by estimating a body burden index, which identifies important chemicals in a mixture of correlated environmental chemicals. Our focus was on assessing through simulation studies the accuracy of WQS regression in detecting subsets of chemicals associated with health outcomes (binary and continuous) in site-specific analyses and in non-site-specific analyses. We also evaluated the performance of the penalized regression methods of lasso, adaptive lasso, and elastic net in correctly classifying chemicals as bad actors or unrelated to the outcome. We based the simulation study on data from the National Cancer Institute Surveillance Epidemiology and End Results Program (NCI-SEER) case-control study of non-Hodgkin lymphoma (NHL) to achieve realistic exposure situations. Our results showed that WQS regression had good sensitivity and specificity across a variety of conditions considered in this study. The shrinkage methods had a tendency to incorrectly identify a large number of components, especially in the case of strong association with the outcome.},
+  langid = {english},
+  keywords = {/unread,To Read},
+  file = {/home/lfabbri/Zotero/storage/6YQ9B7NH/czarnota_gennings_wheeler-2015-assessment_of_weighted_quantile_sum_regression_for_modeling_chemical_mixtures.pdf}
 }
 
 @article{d2012a,
@@ -4831,8 +4850,8 @@
   volume = {22},
   pages = {523--539},
   langid = {english},
-  keywords = {/unread,To Read},
-  file = {/home/lfabbri/Zotero/storage/J7WR59AL/kang_schafer-2007-demystifying_double_robustness.pdf}
+  keywords = {/unread,Statistics - Methodology,To Read},
+  file = {/home/lfabbri/Zotero/storage/A57FK3RW/kang_schafer-2007-demystifying_double_robustness.pdf;/home/lfabbri/Zotero/storage/J7WR59AL/kang_schafer-2007-demystifying_double_robustness.pdf}
 }
 
 @article{KangParkYoun:2019,
@@ -4907,6 +4926,22 @@
   urldate = {2023-01-09},
   keywords = {/unread,To Read},
   file = {/home/lfabbri/Zotero/storage/9H5MWEW8/keil_et_al-comment_on_“a_permutation_test-based_approach_to_strengthening_inference_on_the.pdf}
+}
+
+@article{KeilBuckleyO:a,
+  title = {A {{Quantile-Based}} g-{{Computation Approach}} to {{Addressing}} the {{Effects}} of {{Exposure Mixtures}}},
+  author = {Keil, Alexander P. and Buckley, Jessie P. and O, ’Brien Katie M. and Ferguson, Kelly K. and Zhao, Shanshan and White, Alexandra J.},
+  journaltitle = {Environmental Health Perspectives},
+  volume = {128},
+  number = {4},
+  pages = {047004},
+  publisher = {{Environmental Health Perspectives}},
+  doi = {10.1289/EHP5838},
+  url = {https://ehp.niehs.nih.gov/doi/full/10.1289/EHP5838},
+  urldate = {2023-09-12},
+  abstract = {Background: Exposure mixtures frequently occur in data across many domains, particularly in the fields of environmental and nutritional epidemiology. Various strategies have arisen to answer questions about exposure mixtures, including methods such as weighted quantile sum (WQS) regression that estimate a joint effect of the mixture components. Objectives: We demonstrate a new approach to estimating the joint effects of a mixture: quantile g-computation. This approach combines the inferential simplicity of WQS regression with the flexibility of g-computation, a method of causal effect estimation. We use simulations to examine whether quantile g-computation and WQS regression can accurately and precisely estimate the effects of mixtures in a variety of common scenarios. Methods: We examine the bias, confidence interval (CI) coverage, and bias–variance tradeoff of quantile g-computation and WQS regression and how these quantities are impacted by the presence of noncausal exposures, exposure correlation, unmeasured confounding, and nonlinearity of exposure effects. Results: Quantile g-computation, unlike WQS regression, allows inference on mixture effects that is unbiased with appropriate CI coverage at sample sizes typically encountered in epidemiologic studies and when the assumptions of WQS regression are not met. Further, WQS regression can magnify bias from unmeasured confounding that might occur if important components of the mixture are omitted from the analysis. Discussion: Unlike inferential approaches that examine the effects of individual exposures while holding other exposures constant, methods like quantile g-computation that can estimate the effect of a mixture are essential for understanding the effects of potential public health actions that act on exposure sources. Our approach may serve to help bridge gaps between epidemiologic analysis and interventions such as regulations on industrial emissions or mining processes, dietary changes, or consumer behavioral changes that act on multiple exposures simultaneously. https://doi.org/10.1289/EHP5838},
+  keywords = {/unread,To Read},
+  file = {/home/lfabbri/Zotero/storage/8LPB4E4X/keil_et_al-a_quantile-based_g-computation_approach_to_addressing_the_effects_of_exposure.pdf}
 }
 
 @article{Kennedy:2019,
